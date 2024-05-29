@@ -12,7 +12,7 @@
             <div class="col-md-12 col-lg-3 widget">
                 <div class="text-box">
                     <figure class="footer-logo">
-                        <img src="{{asset($generalSetting->footer_logo)}}" alt="">
+                        {{-- <img src="{{asset($generalSetting->footer_logo)}}" alt=""> --}}
                     </figure>
                     <p>{{$footerInfo->info}}</p>
                     <ul class="d-flex flex-wrap">
@@ -54,8 +54,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="copyright">
-                        <p>{{$footerInfo->copy_right}}</p>
-                        <p>{{$footerInfo->powered_by}}</p>
+                        {{-- <p>{{$footerInfo->copy_right}}</p> --}}
+                        {{-- <p>{{$footerInfo->powered_by}}</p> --}}
                     </div>
                 </div>
             </div>
